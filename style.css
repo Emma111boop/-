@@ -45,10 +45,11 @@ font-size: 1.2rem;
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1600px) {
-  .bgimg-2, .bgimg-3 {
-    background-attachment: scroll;
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
     min-height: 400px;
   }
   .bgimg-1 { min-width: 100%;
+background-attachment: fixed;
   }
 }
