@@ -22,19 +22,22 @@ font-size: 1.2rem;
 /* First image (Logo. Full height) */
 .bgimg-1 {
   background-image: url('images/boat.jpg');
-  min-height: 100%;
+  min-width: 100%;
+  background-posiiton: center;
 }
 
 /* Second image (Portfolio) */
 .bgimg-2 {
   background-image: url('images/blue.jpg');
-  min-height: 400px;
+  min-width: 400px;
+  background-posiiton: center;
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
   background-image: url("images/last meal.jpg");
-  min-height: 400px;
+  min-width: 400px;
+  background-posiiton: center;
 }
 
 .w3-wide {letter-spacing: 10px;}
