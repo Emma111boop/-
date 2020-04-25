@@ -49,7 +49,7 @@ font-size: 1.2rem;
     background-attachment: fixed;
     min-height: 400px;
   }
-  .bgimg-1 { min-width: 100%;
+  .bgimg-1 { min-height: 100%;
 background-attachment: fixed;
   }
 }
