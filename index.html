@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>欢迎来到我的小窝！🛫</title>
+  <title>欢迎来到我的小窝🛫</title>
 
 
 
@@ -11,6 +11,8 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&family=Noto+Serif+TC&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
   <!-- CSS Stylesheets -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
@@ -19,8 +21,6 @@
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 <!-- favicon -->
 <link rel="icon" href="images/sun.png">
-
-
 
   <!-- Bootstrap Scripts -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -61,7 +61,7 @@
   <!-- First Parallax Image with Logo Text -->
   <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
     <div class="w3-display-middle" style="white-space:nowrap;">
-      <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">WELCOME <span class="w3-hide-small">TO</span><span class="w3-hide-small"> MY WEBSITE</span></span>
+<span class="w3-center w3-padding-large w3-white w3-xlarge w3-wide w3-animate-opacity ">WELCOME <span class="w3-hide-small">TO</span> <span class="w3-hide-small">MY WEBSITE</span></span>
     </div>
   </div>
 
@@ -121,7 +121,7 @@ I would love to share my thoughts and experiences here, also welcome to your fee
   <!-- Second Parallax Image with Portfolio Text -->
   <div class="bgimg-2 w3-display-container w3-opacity-min">
     <div class="w3-display-middle">
-      <span class="w3-xxlarge w3-text-white w3-wide" style="font-color: #e8d4b4">PORTFOLIO</span>
+   <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity ">PORTFOLIO</span>
     </div>
   </div>
 
@@ -130,15 +130,24 @@ I would love to share my thoughts and experiences here, also welcome to your fee
     <h3 class="w3-center">MY FAVORITE</h3>
     <p class="w3-center"><em>Here are some of my favorite things.<br> Click on the images to know more about details🍦!</em></p><br>
 
+
     <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
     <div class="w3-row-padding w3-center">
       <div class="w3-col m3">
         <img src="images/bg9.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
+<div class="hey">
+<div class="text">Hello World</div>
+</div>
+
+
 
       </div>
 
+
+
       <div class="w3-col m3">
         <img src="images/bg2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans">
+
       </div>
 
       <div class="w3-col m3">
@@ -182,7 +191,7 @@ I would love to share my thoughts and experiences here, also welcome to your fee
   <!-- Third Parallax Image with Portfolio Text -->
   <div class="bgimg-3 w3-display-container w3-opacity-min">
     <div class="w3-display-middle">
-      <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+      <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity ">CONTACT <span class="w3-hide-small">ME</span></span>
     </div>
   </div>
 
@@ -199,21 +208,21 @@ I would love to share my thoughts and experiences here, also welcome to your fee
         <div class="w3-large w3-margin-bottom">
           <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> XinJiang, CN<br>
           <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +86 123456789<br>
-          <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email:18309973856@163.com<br>
+          <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: 18309973856@163.com<br>
         </div>
         <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
-        <form action="/action_page.php" target="_blank">
-          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+        <form action="/action_page.php" target="_blank" class="hey">
+          <!-- <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
             <div class="w3-half">
               <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
             </div>
             <div class="w3-half">
               <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
             </div>
-          </div>
-          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-          <button class="w3-button w3-black w3-right w3-section" type="submit">
-            <i class="fa fa-paper-plane"></i> SEND MESSAGE
+          </div> -->
+          <!-- <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"> -->
+          <button class="w3-button w3-black w3-right w3-section" type="submit" >
+            <i class="fa fa-paper-plane"></i> <a class="btn" href="mailto:18309973856@163.com">SEND MESSAGE</a>
           </button>
         </form>
       </div>
@@ -267,6 +276,10 @@ I would love to share my thoughts and experiences here, also welcome to your fee
       }
     }
   </script>
+
+
+
+
 
 </body>
 
