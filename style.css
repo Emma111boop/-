@@ -34,7 +34,6 @@ em {
 .bgimg-1 {
   background-image: url('images/boat.jpg');
   min-width: 100%;
-
 }
 
 /* Second image (Portfolio) */
@@ -68,7 +67,6 @@ em {
     background-attachment: fixed;
   }
 }
-
 .hey {
 float:left;
 
